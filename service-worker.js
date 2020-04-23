@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gaf-metalurgica/precache-manifest.479826157208563896706dd7080221a2.js"
+  "/gaf-metalurgica/precache-manifest.60b6c930a37f6fb4bcbc602a0764be97.js"
 );
 
 self.addEventListener('message', (event) => {
