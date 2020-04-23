@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-  MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon
+  MDBNavbar, MDBLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon
 } from "mdbreact";
 
 class NavbarPage extends Component {
@@ -15,10 +15,12 @@ class NavbarPage extends Component {
   render() {
     return (
       <MDBNavbar color="elegant-color-dark" dark expand="md">
-        <MDBNavbarBrand>
-          <MDBIcon icon="tools" style={{ paddingRight: "10px" }} size="lg" />
-          <strong className="white-text">GAF Metalúrgica</strong>
-        </MDBNavbarBrand>
+        <MDBLink to="/" style={{ margin: 0, padding: 0 }}>
+          <MDBNavbarBrand>
+            <MDBIcon className="white-text" icon="tools" style={{ paddingRight: "10px" }} size="lg" />
+            <strong className="white-text">GAF Metalúrgica</strong>
+          </MDBNavbarBrand>
+        </MDBLink>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav right>

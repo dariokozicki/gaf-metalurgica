@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useLocation
 } from "react-router-dom";
 import Home from "./Home"
 import Work from "./Work"
@@ -12,8 +13,9 @@ import About from "./About"
 import '../css/App.css';
 
 class App extends React.Component {
-  state = {
-    routes: [
+  constructor(props) {
+    super(props);
+    const routes = [
       {
         to: "/",
         content: "Inicio",
@@ -38,9 +40,18 @@ class App extends React.Component {
         icon: "map-marker-alt",
         component: Contact
       }
-    ],
-    activeRoute: "Inicio"
+    ]
+    const activeRoute = this.getContentByRoute(routes);
+    this.state = {
+      routes: routes,
+      activeRoute: activeRoute
+    }
   }
+
+  getContentByRoute(routes) {
+    return routes.find(route => route.to === window.location.pathname).content;
+  }
+
 
   setActiveRoute(routeContent) {
     this.setState({

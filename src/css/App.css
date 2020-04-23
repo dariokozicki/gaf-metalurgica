@@ -49,3 +49,14 @@
   word-wrap: break-word;
   /* IE */
 }
+
+.indented-par:first-child {
+  text-indent: 10%;
+}
+
+.about-image {
+  margin: 0 50px 0 50px;
+  float: left;
+  border-width: 5px;
+  border: solid black;
+}
