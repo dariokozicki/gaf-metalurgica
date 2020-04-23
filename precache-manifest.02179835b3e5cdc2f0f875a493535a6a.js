@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cefad41eca9836e738358079c1ddd2a",
+    "revision": "cec49699fbe66c9fbe616db0e53867b5",
     "url": "/gaf-metalurgica/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gaf-metalurgica/static/css/2.14420a7e.chunk.css"
   },
   {
-    "revision": "dcfcf7123e242a492c85",
-    "url": "/gaf-metalurgica/static/css/main.6232db75.chunk.css"
+    "revision": "924a9b9c8ecc879a8ef6",
+    "url": "/gaf-metalurgica/static/css/main.e6654cd5.chunk.css"
   },
   {
     "revision": "5e3299994ed125db2cfe",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gaf-metalurgica/static/js/2.d2bc3a90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dcfcf7123e242a492c85",
+    "revision": "924a9b9c8ecc879a8ef6",
     "url": "/gaf-metalurgica/static/js/main.5d6ed119.chunk.js"
   },
   {
