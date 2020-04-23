@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBMedia } from 'mdbreact';
+import "../css/App.css";
 
 class About extends React.Component {
   state = {
@@ -19,7 +20,7 @@ class About extends React.Component {
     return (
 
       <section className="my-3">
-        <h2 className="h1-responsive font-weight-bold text-center my-3">
+        <h2 className="h1-responsive font-weight-bold text-center my-3 customTitle">
           Acerca de Nosotros
         </h2>
         <MDBMedia object src="images/guillermo.jpg" alt="Guillermo Fasciolo" className="about-image" />

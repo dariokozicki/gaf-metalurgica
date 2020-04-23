@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -48,7 +47,8 @@ class App extends React.Component {
   }
 
   getContentByRoute(routes) {
-    return routes.find(route => route.to === window.location.pathname).content;
+    const route = routes.find(route => route.to === window.location.pathname);
+    return route ? route.content : "Inicio";
   }
 
 
@@ -61,21 +61,19 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
-        <div>
-          <header>
-            <NavbarPage
-              routes={this.state.routes}
-              activeRoute={this.state.activeRoute}
-              onClick={(content) => this.setActiveRoute(content)} />
-          </header>
-          <Switch>
-            {this.state.routes.map(route => (
-              <Route exact path={route.to} component={route.component} />
-            ))}
-          </Switch>
-        </div>
-      </Router>
+      <div>
+        <header>
+          <NavbarPage
+            routes={this.state.routes}
+            activeRoute={this.state.activeRoute}
+            onClick={(content) => this.setActiveRoute(content)} />
+        </header>
+        <Switch>
+          {this.state.routes.map(route => (
+            <Route exact path={route.to} component={route.component} />
+          ))}
+        </Switch>
+      </div>
     );
   }
 

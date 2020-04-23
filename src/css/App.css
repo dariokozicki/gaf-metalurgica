@@ -60,3 +60,7 @@
   border-width: 5px;
   border: solid black;
 }
+
+.customTitle {
+  text-decoration: underline;
+}
