@@ -8,7 +8,7 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import { BrowserRouter as Router } from "react-router-dom";
 
-const basename = "/gaf-metalurgica";
+export const basename = "/gaf-metalurgica";
 
 ReactDOM.render(
   <React.StrictMode>

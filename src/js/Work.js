@@ -27,10 +27,15 @@ class Work extends React.Component {
         const privateKey = photoIndex;
         return (
           <MDBCol md="4" key={photoIndex}>
-            <figure>
-              <MDBMedia object src={imageSrc} alt="Gallery" className="img-fluid" onClick={() =>
-                this.setState({ photoIndex: privateKey, isOpen: true })
-              }
+            <figure style={{ height: "95%" }}>
+              <MDBMedia
+                style={{ height: "100%", width: "100%" }}
+                object src={imageSrc}
+                alt="Gallery"
+                className="img-fluid"
+                onClick={() =>
+                  this.setState({ photoIndex: privateKey, isOpen: true })
+                }
               />
             </figure>
           </MDBCol>
