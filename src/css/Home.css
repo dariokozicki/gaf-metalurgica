@@ -1,0 +1,15 @@
+.jumboCard {
+  background-color: rgba(53, 40, 29, 0.6);
+  border: solid #000;
+  border-width: 5px;
+}
+
+.homeLink {
+  color: rgb(206, 198, 198);
+  text-decoration: none;
+  transition: all 600ms ease;
+}
+
+.homeLink:hover {
+  color: white;
+}
