@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a826a827b1b73417eea6fbaf41f89db",
+    "revision": "113684ed5068464f08dc4f12612db019",
     "url": "/gaf-metalurgica/index.html"
   },
   {
-    "revision": "4865d8b798baff5dc9ef",
+    "revision": "cb3f4b50f573c6d2d2e1",
     "url": "/gaf-metalurgica/static/css/2.14420a7e.chunk.css"
   },
   {
-    "revision": "22b4e59e3fe4ac0260be",
+    "revision": "ad620f7dc4146ce1a5e1",
     "url": "/gaf-metalurgica/static/css/main.6fa67284.chunk.css"
   },
   {
-    "revision": "4865d8b798baff5dc9ef",
-    "url": "/gaf-metalurgica/static/js/2.33218901.chunk.js"
+    "revision": "cb3f4b50f573c6d2d2e1",
+    "url": "/gaf-metalurgica/static/js/2.8d7110e5.chunk.js"
   },
   {
     "revision": "78e572a38ce62fad1af1cd75e03f15bb",
-    "url": "/gaf-metalurgica/static/js/2.33218901.chunk.js.LICENSE.txt"
+    "url": "/gaf-metalurgica/static/js/2.8d7110e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22b4e59e3fe4ac0260be",
-    "url": "/gaf-metalurgica/static/js/main.d101f9a0.chunk.js"
+    "revision": "ad620f7dc4146ce1a5e1",
+    "url": "/gaf-metalurgica/static/js/main.d21059be.chunk.js"
   },
   {
-    "revision": "81dc2192441195bbc451",
-    "url": "/gaf-metalurgica/static/js/runtime-main.d8c306bb.js"
+    "revision": "8a52031bf8753819e0ce",
+    "url": "/gaf-metalurgica/static/js/runtime-main.cbc7a4d8.js"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
