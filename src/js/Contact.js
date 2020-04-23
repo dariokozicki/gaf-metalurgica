@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+import { MDBRow, MDBCol, MDBIcon, MDBBtn } from "mdbreact";
 import '../css/App.css';
 
 class Contact extends React.Component {
@@ -29,13 +29,13 @@ class Contact extends React.Component {
           </MDBCol>
           <MDBCol lg="4" style={{ padding: "0 50px 0 55px" }}>
             <MDBRow>
-              <a href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5" target="_blank">
+              <a href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5" target="_blank" rel="noopener noreferrer">
                 <MDBBtn tag="a" floating color="blue" className="accent-1">
                   <MDBIcon icon="map-marker-alt" />
                 </MDBBtn>
               </a>
               <MDBCol>
-                <a href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5" target="_blank">
+                <a href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5" target="_blank" rel="noopener noreferrer">
                   <p className="mb-md-0">Av. Almirante Brown 1423</p>
                   <p className="mb-md-0">Buenos Aires, Argentina</p>
                 </a>

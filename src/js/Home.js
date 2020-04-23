@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBJumbotron, MDBLink, MDBContainer, MDBRow, MDBCol, MDBCardTitle, MDBIcon } from "mdbreact";
+import { MDBJumbotron, MDBLink, MDBContainer, MDBRow, MDBCol, MDBCardTitle } from "mdbreact";
 import "../css/Home.css";
 
 class Home extends React.Component {
