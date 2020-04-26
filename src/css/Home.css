@@ -6,10 +6,10 @@
 
 .homeLink {
   color: rgb(206, 198, 198);
-  text-decoration: none;
-  transition: all 600ms ease;
-}
-
-.homeLink:hover {
-  color: white;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }

@@ -25,7 +25,7 @@ class About extends React.Component {
         </h2>
         <MDBMedia object src="images/guillermo.jpg" alt="Guillermo Fasciolo" className="about-image" />
         <main style={{ margin: "0 50px 0 50px" }}>
-          {this.state.parragraphs.map(parr => <p className="indented-par">{parr.text}</p>)}
+          {this.state.parragraphs.map((parr, i) => <p className="indented-par" key={i}>{parr.text}</p>)}
         </main>
 
       </section>

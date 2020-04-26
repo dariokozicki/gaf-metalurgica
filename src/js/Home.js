@@ -10,19 +10,22 @@ class Home extends React.Component {
           <MDBCol>
             <MDBJumbotron fluid style={{ padding: 0, margin: 0 }}>
               <MDBCol
-                className="text-white text-center py-5 px-4"
+                className="text-white text-center py-5 px-5"
                 style={{
                   backgroundImage: `url(images/home.jpg)`,
                   height: "100vh",
-                  backgroundSize: "cover"
+                  backgroundSize: "cover",
+                  position: "relative"
                 }}>
-                <MDBCol className="py-5 jumboCard">
-                  <MDBCardTitle className="h1-responsive pt-3 m-5 font-bold opaque"><strong>Metalúrgica GAF</strong> </MDBCardTitle>
-                  <p className="mx-5 mb-5 opaque">
-                    Acá pondrías tu texto inspirador. Somos una empresa que se dedica a...
+                <MDBCol className="py-1 jumboCard">
+                  <MDBCardTitle className="h1-responsive pt-3 m-3 font-bold opaque"><strong>Metalúrgica GAF</strong> </MDBCardTitle>
+                  <p className="mx-5 mb-3 opaque">
+                    Somos una empresa que se dedica a la fabricación de piezas de primera calidad.
                   </p>
-                  <MDBLink to="/work" className="homeLink h3-responsive"><strong>Ver Galería</strong></MDBLink>
                 </MDBCol>
+                <MDBLink to="/work" className="homeLink btn-lg btn btn-unique" >
+                  <strong>Ver Galería</strong>
+                </MDBLink>
               </MDBCol>
             </MDBJumbotron>
           </MDBCol>

@@ -70,7 +70,7 @@ class App extends React.Component {
         </header>
         <Switch>
           {this.state.routes.map(route => (
-            <Route exact path={route.to} component={route.component} />
+            <Route exact path={route.to} component={route.component} key={route.to} />
           ))}
         </Switch>
       </div>

@@ -29,24 +29,20 @@ class Contact extends React.Component {
           </MDBCol>
           <MDBCol lg="4" style={{ padding: "0 50px 0 55px" }}>
             <MDBRow>
-              <a href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5" target="_blank" rel="noopener noreferrer">
-                <MDBBtn tag="a" floating color="blue" className="accent-1">
-                  <MDBIcon icon="map-marker-alt" />
-                </MDBBtn>
-              </a>
+              <MDBBtn href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5" tag="a" color="blue" className="accent-1">
+                <MDBIcon icon="map-marker-alt" />
+              </MDBBtn>
               <MDBCol>
-                <a href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5" target="_blank" rel="noopener noreferrer">
+                <a href="https://goo.gl/maps/aUm5i6QnVGDmCXtv5">
                   <p className="mb-md-0">Av. Almirante Brown 1423</p>
                   <p className="mb-md-0">Buenos Aires, Argentina</p>
                 </a>
               </MDBCol>
             </MDBRow>
             <MDBRow md="4">
-              <a href="tel:+54 11 15-6462-6571">
-                <MDBBtn tag="a" floating color="blue" className="accent-1">
-                  <MDBIcon icon="phone" />
-                </MDBBtn>
-              </a>
+              <MDBBtn href="tel:+54 11 15-6462-6571" tag="a" color="blue" className="accent-1">
+                <MDBIcon icon="phone" />
+              </MDBBtn>
               <MDBCol>
                 <a href="tel:+54 11 15-6462-6571">
                   <p className="mb-md-0">011 15-6462-6571</p>
@@ -55,11 +51,9 @@ class Contact extends React.Component {
               </MDBCol>
             </MDBRow>
             <MDBRow>
-              <a href="mailto: fasciologuillermo@yahoo.com.ar">
-                <MDBBtn tag="a" floating color="blue" className="accent-1">
-                  <MDBIcon icon="envelope" />
-                </MDBBtn>
-              </a>
+              <MDBBtn href="mailto: fasciologuillermo@yahoo.com.ar" tag="a" color="blue" className="accent-1">
+                <MDBIcon icon="envelope" />
+              </MDBBtn>
               <MDBCol className="breakText">
                 <a href="mailto: fasciologuillermo@yahoo.com.ar">
                   <p>fasciologuillermo @yahoo.com.ar</p>

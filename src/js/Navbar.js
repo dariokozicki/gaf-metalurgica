@@ -26,6 +26,7 @@ class NavbarPage extends Component {
           <MDBNavbarNav right>
             {this.props.routes.map(item => (
               <MDBNavItem
+                key={item.content}
                 active={this.props.activeRoute === item.content}
                 onClick={() => this.props.onClick(item.content)}>
                 <MDBNavLink to={item.to}>
