@@ -13,7 +13,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -44,5 +44,5 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "homepage": "https://dariokozicki.github.io/gaf-metalurgica"
+  "homepage": "gaf-metalurgica.ml"
 }
