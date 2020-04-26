@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gaf-metalurgica.ml/static/css/main.a60f953c.chunk.css",
-    "main.js": "/gaf-metalurgica.ml/static/js/main.b01fe66c.chunk.js",
-    "main.js.map": "/gaf-metalurgica.ml/static/js/main.b01fe66c.chunk.js.map",
+    "main.js": "/gaf-metalurgica.ml/static/js/main.1394ba70.chunk.js",
+    "main.js.map": "/gaf-metalurgica.ml/static/js/main.1394ba70.chunk.js.map",
     "runtime-main.js": "/gaf-metalurgica.ml/static/js/runtime-main.8b784806.js",
     "runtime-main.js.map": "/gaf-metalurgica.ml/static/js/runtime-main.8b784806.js.map",
     "static/css/2.b86243a7.chunk.css": "/gaf-metalurgica.ml/static/css/2.b86243a7.chunk.css",
     "static/js/2.d2bc3a90.chunk.js": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js",
     "static/js/2.d2bc3a90.chunk.js.map": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js.map",
     "index.html": "/gaf-metalurgica.ml/index.html",
-    "precache-manifest.25aec7d43b764b607fb9d2c1b43bd451.js": "/gaf-metalurgica.ml/precache-manifest.25aec7d43b764b607fb9d2c1b43bd451.js",
+    "precache-manifest.19fc70789f6de142807bcc2f5b917cdc.js": "/gaf-metalurgica.ml/precache-manifest.19fc70789f6de142807bcc2f5b917cdc.js",
     "service-worker.js": "/gaf-metalurgica.ml/service-worker.js",
     "static/css/2.b86243a7.chunk.css.map": "/gaf-metalurgica.ml/static/css/2.b86243a7.chunk.css.map",
     "static/css/main.a60f953c.chunk.css.map": "/gaf-metalurgica.ml/static/css/main.a60f953c.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.b86243a7.chunk.css",
     "static/js/2.d2bc3a90.chunk.js",
     "static/css/main.a60f953c.chunk.css",
-    "static/js/main.b01fe66c.chunk.js"
+    "static/js/main.1394ba70.chunk.js"
   ]
 }
