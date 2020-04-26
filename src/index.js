@@ -12,7 +12,7 @@ export const basename = "/gaf-metalurgica";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={basename}>
+    <Router>
       <App />
     </Router>
   </React.StrictMode>,
