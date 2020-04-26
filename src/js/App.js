@@ -9,7 +9,6 @@ import Contact from "./Contact"
 import NavbarPage from "./Navbar";
 import About from "./About"
 import '../css/App.css';
-import { basename } from "../index.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -48,7 +47,7 @@ class App extends React.Component {
   }
 
   getContentByRoute(routes) {
-    const route = routes.find(route => route.to === window.location.pathname.replace(basename, ""));
+    const route = routes.find(route => route.to === window.location.pathname);
     return route ? route.content : "Inicio";
   }
 
