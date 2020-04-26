@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/gaf-metalurgica/static/css/main.a60f953c.chunk.css",
-    "main.js": "/gaf-metalurgica/static/js/main.feef4206.chunk.js",
-    "main.js.map": "/gaf-metalurgica/static/js/main.feef4206.chunk.js.map",
-    "runtime-main.js": "/gaf-metalurgica/static/js/runtime-main.cbc7a4d8.js",
-    "runtime-main.js.map": "/gaf-metalurgica/static/js/runtime-main.cbc7a4d8.js.map",
-    "static/css/2.14420a7e.chunk.css": "/gaf-metalurgica/static/css/2.14420a7e.chunk.css",
-    "static/js/2.d2bc3a90.chunk.js": "/gaf-metalurgica/static/js/2.d2bc3a90.chunk.js",
-    "static/js/2.d2bc3a90.chunk.js.map": "/gaf-metalurgica/static/js/2.d2bc3a90.chunk.js.map",
-    "index.html": "/gaf-metalurgica/index.html",
-    "precache-manifest.6b113be15e7b3bf45c304b09ead3318f.js": "/gaf-metalurgica/precache-manifest.6b113be15e7b3bf45c304b09ead3318f.js",
-    "service-worker.js": "/gaf-metalurgica/service-worker.js",
-    "static/css/2.14420a7e.chunk.css.map": "/gaf-metalurgica/static/css/2.14420a7e.chunk.css.map",
-    "static/css/main.a60f953c.chunk.css.map": "/gaf-metalurgica/static/css/main.a60f953c.chunk.css.map",
-    "static/js/2.d2bc3a90.chunk.js.LICENSE.txt": "/gaf-metalurgica/static/js/2.d2bc3a90.chunk.js.LICENSE.txt",
-    "static/media/mdb.css": "/gaf-metalurgica/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/all.min.css": "/gaf-metalurgica/static/media/fa-solid-900.ec763292.svg"
+    "main.css": "/gaf-metalurgica.ml/static/css/main.a60f953c.chunk.css",
+    "main.js": "/gaf-metalurgica.ml/static/js/main.b01fe66c.chunk.js",
+    "main.js.map": "/gaf-metalurgica.ml/static/js/main.b01fe66c.chunk.js.map",
+    "runtime-main.js": "/gaf-metalurgica.ml/static/js/runtime-main.8b784806.js",
+    "runtime-main.js.map": "/gaf-metalurgica.ml/static/js/runtime-main.8b784806.js.map",
+    "static/css/2.b86243a7.chunk.css": "/gaf-metalurgica.ml/static/css/2.b86243a7.chunk.css",
+    "static/js/2.d2bc3a90.chunk.js": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js",
+    "static/js/2.d2bc3a90.chunk.js.map": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js.map",
+    "index.html": "/gaf-metalurgica.ml/index.html",
+    "precache-manifest.25aec7d43b764b607fb9d2c1b43bd451.js": "/gaf-metalurgica.ml/precache-manifest.25aec7d43b764b607fb9d2c1b43bd451.js",
+    "service-worker.js": "/gaf-metalurgica.ml/service-worker.js",
+    "static/css/2.b86243a7.chunk.css.map": "/gaf-metalurgica.ml/static/css/2.b86243a7.chunk.css.map",
+    "static/css/main.a60f953c.chunk.css.map": "/gaf-metalurgica.ml/static/css/main.a60f953c.chunk.css.map",
+    "static/js/2.d2bc3a90.chunk.js.LICENSE.txt": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/gaf-metalurgica.ml/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/gaf-metalurgica.ml/static/media/fa-solid-900.ec763292.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbc7a4d8.js",
-    "static/css/2.14420a7e.chunk.css",
+    "static/js/runtime-main.8b784806.js",
+    "static/css/2.b86243a7.chunk.css",
     "static/js/2.d2bc3a90.chunk.js",
     "static/css/main.a60f953c.chunk.css",
-    "static/js/main.feef4206.chunk.js"
+    "static/js/main.b01fe66c.chunk.js"
   ]
 }
