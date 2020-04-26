@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/gaf-metalurgica.ml/static/css/main.a60f953c.chunk.css",
-    "main.js": "/gaf-metalurgica.ml/static/js/main.1394ba70.chunk.js",
-    "main.js.map": "/gaf-metalurgica.ml/static/js/main.1394ba70.chunk.js.map",
-    "runtime-main.js": "/gaf-metalurgica.ml/static/js/runtime-main.8b784806.js",
-    "runtime-main.js.map": "/gaf-metalurgica.ml/static/js/runtime-main.8b784806.js.map",
-    "static/css/2.b86243a7.chunk.css": "/gaf-metalurgica.ml/static/css/2.b86243a7.chunk.css",
-    "static/js/2.d2bc3a90.chunk.js": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js",
-    "static/js/2.d2bc3a90.chunk.js.map": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js.map",
-    "index.html": "/gaf-metalurgica.ml/index.html",
-    "precache-manifest.19fc70789f6de142807bcc2f5b917cdc.js": "/gaf-metalurgica.ml/precache-manifest.19fc70789f6de142807bcc2f5b917cdc.js",
-    "service-worker.js": "/gaf-metalurgica.ml/service-worker.js",
-    "static/css/2.b86243a7.chunk.css.map": "/gaf-metalurgica.ml/static/css/2.b86243a7.chunk.css.map",
-    "static/css/main.a60f953c.chunk.css.map": "/gaf-metalurgica.ml/static/css/main.a60f953c.chunk.css.map",
-    "static/js/2.d2bc3a90.chunk.js.LICENSE.txt": "/gaf-metalurgica.ml/static/js/2.d2bc3a90.chunk.js.LICENSE.txt",
-    "static/media/mdb.css": "/gaf-metalurgica.ml/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/all.min.css": "/gaf-metalurgica.ml/static/media/fa-solid-900.ec763292.svg"
+    "main.css": "/static/css/main.a60f953c.chunk.css",
+    "main.js": "/static/js/main.3daa2dbf.chunk.js",
+    "main.js.map": "/static/js/main.3daa2dbf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.20797781.js",
+    "runtime-main.js.map": "/static/js/runtime-main.20797781.js.map",
+    "static/css/2.6bc48b3f.chunk.css": "/static/css/2.6bc48b3f.chunk.css",
+    "static/js/2.d2bc3a90.chunk.js": "/static/js/2.d2bc3a90.chunk.js",
+    "static/js/2.d2bc3a90.chunk.js.map": "/static/js/2.d2bc3a90.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7e21cd56a112ae3d5b9d16ff229412d7.js": "/precache-manifest.7e21cd56a112ae3d5b9d16ff229412d7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.6bc48b3f.chunk.css.map": "/static/css/2.6bc48b3f.chunk.css.map",
+    "static/css/main.a60f953c.chunk.css.map": "/static/css/main.a60f953c.chunk.css.map",
+    "static/js/2.d2bc3a90.chunk.js.LICENSE.txt": "/static/js/2.d2bc3a90.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.ec763292.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b784806.js",
-    "static/css/2.b86243a7.chunk.css",
+    "static/js/runtime-main.20797781.js",
+    "static/css/2.6bc48b3f.chunk.css",
     "static/js/2.d2bc3a90.chunk.js",
     "static/css/main.a60f953c.chunk.css",
-    "static/js/main.1394ba70.chunk.js"
+    "static/js/main.3daa2dbf.chunk.js"
   ]
 }
