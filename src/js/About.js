@@ -4,6 +4,7 @@ import "../css/App.css";
 
 class About extends React.Component {
   state = {
+    img: "center",
     parragraphs: [
       {
         text: "El texto que está acá es de relleno, si querés podes escribir algo contando de vos. Praesent viverra pretium lacus, nec molestie velit varius ut. Sed tristique nisl a luctus congue. Pellentesque velit est, accumsan a elit ut, rutrum venenatis lacus. Morbi blandit libero at sem luctus, non eleifend dolor mattis. Etiam laoreet, ex congue scelerisque mattis, nulla diam tincidunt dolor, non elementum ante sapien vitae nunc. Suspendisse eget dolor lobortis leo iaculis ultricies eleifend vitae dui. Vivamus vel felis eget dui tempus sodales in in ex. Nulla non nulla vitae elit fringilla varius vitae sed augue. Etiam id feugiat metus. Curabitur dictum turpis metus. Cras justo nunc, congue nec sodales a, feugiat ac neque. Pellentesque interdum mollis sollicitudin. Mauris sodales libero ac laoreet imperdiet. Cras id massa dictum, porta ex in, luctus turpis. Sed rutrum justo neque, quis gravida nisi posuere non. "
@@ -16,14 +17,20 @@ class About extends React.Component {
       }
     ]
   }
+
+  componentDidMount() {
+    const handler = e => this.setState({ img: "left", parragraphs: this.state.parragraphs });
+    window.matchMedia("(min-width: 600px)").addListener(handler);
+  }
+
   render() {
     return (
 
-      <section className="my-3">
+      <section className="my-3" style={{ textAlign: this.state.img }}>
         <h2 className="h1-responsive font-weight-bold text-center my-3 customTitle">
           Acerca de Nosotros
         </h2>
-        <MDBMedia object src="images/guillermo.jpg" alt="Guillermo Fasciolo" className="about-image" />
+        <MDBMedia object src="images/guillermo.jpg" alt="Guillermo Fasciolo" className="about-image" style={{ float: this.state.img }} />
         <main style={{ margin: "0 50px 0 50px" }}>
           {this.state.parragraphs.map((parr, i) => <p className="indented-par" key={i}>{parr.text}</p>)}
         </main>
