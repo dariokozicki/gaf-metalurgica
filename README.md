@@ -8,4 +8,4 @@ Here you'll find their latest projects and contact info.
 
 This website was made using React JS, CSS & HTML.
 
-You can see it live [here](gaf-metalurgica.ml).
+You can see it live [here](https://gaf-metalurgica.ml).
