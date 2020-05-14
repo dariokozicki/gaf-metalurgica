@@ -18,19 +18,14 @@ class About extends React.Component {
     ]
   }
 
-  componentDidMount() {
-    const handler = e => this.setState({ img: "left", parragraphs: this.state.parragraphs });
-    window.matchMedia("(min-width: 600px)").addListener(handler);
-  }
-
   render() {
     return (
 
-      <section className="my-3" style={{ textAlign: this.state.img }}>
+      <section className="my-3">
         <h2 className="h1-responsive font-weight-bold text-center my-3 customTitle">
           Acerca de Nosotros
         </h2>
-        <MDBMedia object src="images/guillermo.jpg" alt="Guillermo Fasciolo" className="about-image" style={{ float: this.state.img }} />
+        <MDBMedia object src="images/guillermo.jpg" alt="Guillermo Fasciolo" className="about-image" />
         <main style={{ margin: "0 50px 0 50px" }}>
           {this.state.parragraphs.map((parr, i) => <p className="indented-par" key={i}>{parr.text}</p>)}
         </main>

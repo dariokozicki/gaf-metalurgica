@@ -19,8 +19,13 @@
   text-indent: 10%;
 }
 
+section {
+  text-align: center;
+}
+
 .about-image {
   margin: 0 50px 20px 50px;
+  float: center;
   border-width: 5px;
   border: solid black;
   min-width: 250px;
@@ -31,4 +36,13 @@
 
 .customTitle {
   text-decoration: underline;
+}
+
+@media all and (min-width: 600px) {
+  .about-image {
+    float: left;
+  }
+  section {
+    text-align: left;
+  }
 }
